@@ -12,7 +12,7 @@ export default function MenuEvent() {
   return (
     <>
       <section
-        className="px-4 md:px-8 lg:px-12 py-32 bg-fixed has-bg-image"
+        className="px-4 md:px-8 lg:px-12 py-16 lg:py-32 bg-fixed has-bg-image"
         id="menu"
         aria-labelledby="menu-label"
         style={{ backgroundImage: `url(${MenuBg})` }}
@@ -23,7 +23,7 @@ export default function MenuEvent() {
           </p>
 
           <h2
-            className="font-oswald text-WhitE font-normal text-3xl md:text-4xl lg:text-6xl mt-3 mb-16 text-center"
+            className="font-oswald text-WhitE font-normal text-3xl md:text-4xl lg:text-5xl mt-3 mb-7 md:mb-12 text-center"
             id="menu-label"
             data-reveal
           >
@@ -31,7 +31,7 @@ export default function MenuEvent() {
           </h2>
 
           <ul
-            className="grid md:grid-cols-2 bg-rich-black-fogra-39 py-14 px-12 gap-10 bg-no-repeat bg-cover bg-center w-500 h-500 rounded-md"
+            className="grid lg:grid-cols-2 bg-rich-black-fogra-39 p-5 lg:py-14 lg:px-12 gap-10 bg-no-repeat bg-cover bg-center w-500 h-500 rounded-md"
             style={{ backgroundImage: `url(${MenuBgLogo})` }}
           >
             <li>
@@ -48,14 +48,14 @@ export default function MenuEvent() {
                 </figure>
 
                 <div className="grid">
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Americano Coffee
                   </h3>
 
                   <p className="mb-2">2/3 espresso, 1/3 streamed milk</p>
 
                   <data
-                    className="text-Camel font-merienda text-base lg:text-3xl w-full"
+                    className="text-Camel font-merienda text-base lg:text-2xl w-full"
                     value="4.9"
                   >
                     • • • • • • • • • • $4.9
@@ -78,14 +78,14 @@ export default function MenuEvent() {
                 </figure>
 
                 <div className="grid">
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Espresso Coffee
                   </h3>
 
                   <p className="mb-2">2/3 espresso, 1/3 streamed milk</p>
 
                   <data
-                    className="text-Camel font-merienda text-base lg:text-3xl w-full"
+                    className="text-Camel font-merienda text-base lg:text-2xl w-full"
                     value="4.9"
                   >
                     • • • • • • • • • • $4.9
@@ -108,14 +108,14 @@ export default function MenuEvent() {
                 </figure>
 
                 <div className="grid">
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Barista Pouring Syrup
                   </h3>
 
                   <p className="mb-2">2/3 espresso, 1/3 streamed milk</p>
 
                   <data
-                    className="text-Camel font-merienda text-base lg:text-3xl w-full"
+                    className="text-Camel font-merienda text-base lg:text-2xl w-full"
                     value="3.5"
                   >
                     • • • • • • • • • • $3.5
@@ -138,14 +138,14 @@ export default function MenuEvent() {
                 </figure>
 
                 <div className="grid">
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Cold - Coffee
                   </h3>
 
                   <p className="mb-2">2/3 espresso, 1/3 streamed milk</p>
 
                   <data
-                    className="text-Camel font-merienda text-base lg:text-3xl w-full"
+                    className="text-Camel font-merienda text-base lg:text-2xl w-full"
                     value="6.0"
                   >
                     • • • • • • • • • • $6.0
@@ -168,14 +168,14 @@ export default function MenuEvent() {
                 </figure>
 
                 <div className="grid">
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Cappuccino Arabica
                   </h3>
 
                   <p className="mb-2">2/3 espresso, 1/3 streamed milk</p>
 
                   <data
-                    className="text-Camel font-merienda text-base lg:text-3xl w-full"
+                    className="text-Camel font-merienda text-base lg:text-2xl w-full"
                     value="2.8"
                   >
                     • • • • • • • • • • $2.8
@@ -198,14 +198,14 @@ export default function MenuEvent() {
                 </figure>
 
                 <div className="grid">
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Milk Cream Coffee
                   </h3>
 
                   <p className="mb-2">2/3 espresso, 1/3 streamed milk</p>
 
                   <data
-                    className="text-Camel font-merienda text-base lg:text-3xl w-full"
+                    className="text-Camel font-merienda text-base lg:text-2xl w-full"
                     value="7.5"
                   >
                     • • • • • • • • • • $7.5

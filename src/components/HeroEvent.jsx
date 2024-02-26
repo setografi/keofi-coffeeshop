@@ -17,14 +17,14 @@ export default function HeroEvent() {
             </p>
 
             <h1
-              className="font-oswald font-medium text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-WhitE max-w-[10ch] mb-10 mt-3 md:leading-[6rem] lg:leading-[9rem]"
+              className="font-oswald font-medium text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-WhitE max-w-[10ch] mb-10 mt-3 md:leading-[6rem] lg:leading-[9rem]"
               id="hero-label"
               data-reveal
             >
               Great Coffee Good Vibes
             </h1>
 
-            <div className="flex flex-wrap gap-7" data-reveal>
+            <div className="flex flex-wrap gap-3" data-reveal>
               <a
                 href="#"
                 className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-sm font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"

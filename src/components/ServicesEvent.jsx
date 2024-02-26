@@ -7,7 +7,7 @@ export default function ServicesEvent() {
   return (
     <>
       <section className="bg-rich-black-fogra-39" aria-label="service">
-        <div className="px-4 md:px-8 lg:px-12 py-32 max-w-[1200px] w-full mx-auto">
+        <div className="px-4 md:px-8 lg:px-12 py-16 lg:py-32 max-w-[1200px] w-full mx-auto">
           <ul className="grid gap-7 lg:grid-cols-3">
             <li>
               <a
@@ -26,10 +26,10 @@ export default function ServicesEvent() {
                   />
                 </figure>
 
-                <div className="bg-rich-black-fogra-29_a85 text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75 has-before">
+                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75 has-before">
                   <i className="ri-restaurant-line text-3xl md:text-5xl text-WhitE mx-auto mb-1"></i>
 
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Restaurant Menu
                   </h3>
                 </div>
@@ -53,10 +53,10 @@ export default function ServicesEvent() {
                   />
                 </figure>
 
-                <div className="bg-rich-black-fogra-29_a85 text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75 has-before">
+                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75 has-before">
                   <i className="ri-cup-line text-3xl md:text-5xl text-WhitE mx-auto mb-1"></i>
 
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Coffee Menu
                   </h3>
                 </div>
@@ -80,10 +80,10 @@ export default function ServicesEvent() {
                   />
                 </figure>
 
-                <div className="bg-rich-black-fogra-29_a85 text-center py-20 transition duration-300 group-hover:bg-rich-black-fogra-29_a75 has-before">
+                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 group-hover:bg-rich-black-fogra-29_a75 has-before">
                   <i className="ri-goblet-line text-3xl md:text-5xl text-WhitE mx-auto mb-1"></i>
 
-                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-3xl mb-2">
+                  <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
                     Food Services
                   </h3>
                 </div>

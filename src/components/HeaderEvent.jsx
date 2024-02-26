@@ -1,11 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import LogoWeb from "../assets/logo.svg";
 
-export default function HeaderEvent() {
+function HeaderEvent() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+      setIsScrolled(scrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Membersihkan event listener setelah komponen di-unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <section>
       <header className="header">
-        <div className="block text-lightGray bg-rich-black-fogra-39 py-3 px-8">
+        <div className="hidden lg:block text-lightGray bg-rich-black-fogra-39 py-3 px-8">
           <div className="md:flex justify-between items-center">
             <p className="flex gap-1 text-xs md:text-sm uppercase">
               <i className="ri-time-line text-Camel"></i>
@@ -60,12 +76,14 @@ export default function HeaderEvent() {
         </div>
 
         <div
-          className="absolute left-0 w-full bg-rich-black-fogra-29"
+          className={`fixed left-0 w-full bg-rich-black-fogra-29 transition ${
+            isScrolled ? "bg-rich-black-fogra-39 top-0 z-40" : ""
+          }`}
           data-header
         >
           <div className="flex justify-between items-center py-2 px-8 bg-rich-black-fogra-39">
             <a href="#" className="relative z-20 w-28">
-              <img src={LogoWeb} alt="" />
+              <img className="object-cover" src={LogoWeb} alt="" />
             </a>
 
             <nav
@@ -133,7 +151,7 @@ export default function HeaderEvent() {
             </nav>
 
             <button
-              className="lg:hidden text-lg transition duration-300 hover:scale-125"
+              className="lg:hidden text-2xl text-WhitE transition duration-300 hover:scale-125"
               aria-label="open menu"
               data-nav-toggler
             >
@@ -145,3 +163,5 @@ export default function HeaderEvent() {
     </section>
   );
 }
+
+export default HeaderEvent;
