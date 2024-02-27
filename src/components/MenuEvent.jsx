@@ -18,24 +18,42 @@ export default function MenuEvent() {
         style={{ backgroundImage: `url(${MenuBg})` }}
       >
         <div className="max-w-[1200px] w-full mx-auto">
-          <p className="uppercase text-Camel text-center" data-reveal>
+          <p
+            className="uppercase text-Camel text-center"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+          >
             Choose Best Coffee
           </p>
 
           <h2
             className="font-oswald text-WhitE font-normal text-3xl md:text-4xl lg:text-5xl mt-3 mb-7 md:mb-12 text-center"
             id="menu-label"
-            data-reveal
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
           >
             Kaffen Popular Coffee Menu
           </h2>
 
           <ul
-            className="grid lg:grid-cols-2 bg-rich-black-fogra-39 p-5 lg:py-14 lg:px-12 gap-10 bg-no-repeat bg-cover bg-center w-500 h-500 rounded-md"
-            style={{ backgroundImage: `url(${MenuBgLogo})` }}
+            className="grid lg:grid-cols-2 bg-rich-black-fogra-39 p-5 lg:py-14 lg:px-12 gap-10 bg-no-repeat bg-cover bg-center rounded-md"
+            style={{
+              backgroundImage: `url(${MenuBgLogo})`,
+              backgroundSize: "500px",
+            }}
           >
             <li>
-              <div className="md:flex items-center gap-5" data-reveal>
+              <div
+                className="md:flex items-center gap-5"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
                 <figure className="w-40 rounded-md mb-4 overflow-hidden bg-lightGray">
                   <img
                     src={MenuImage1}
@@ -65,7 +83,13 @@ export default function MenuEvent() {
             </li>
 
             <li>
-              <div className="md:flex items-center gap-5" data-reveal>
+              <div
+                className="md:flex items-center gap-5"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
                 <figure className="w-40 rounded-md mb-4 overflow-hidden bg-lightGray">
                   <img
                     src={MenuImage2}
@@ -95,7 +119,13 @@ export default function MenuEvent() {
             </li>
 
             <li>
-              <div className="md:flex items-center gap-5" data-reveal>
+              <div
+                className="md:flex items-center gap-5"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
                 <figure className="w-40 rounded-md mb-4 overflow-hidden bg-lightGray">
                   <img
                     src={MenuImage3}
@@ -125,7 +155,13 @@ export default function MenuEvent() {
             </li>
 
             <li>
-              <div className="md:flex items-center gap-5" data-reveal>
+              <div
+                className="md:flex items-center gap-5"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
                 <figure className="w-40 rounded-md mb-4 overflow-hidden bg-lightGray">
                   <img
                     src={MenuImage4}
@@ -155,7 +191,13 @@ export default function MenuEvent() {
             </li>
 
             <li>
-              <div className="md:flex items-center gap-5" data-reveal>
+              <div
+                className="md:flex items-center gap-5"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
                 <figure className="w-40 rounded-md mb-4 overflow-hidden bg-lightGray">
                   <img
                     src={MenuImage5}
@@ -185,7 +227,13 @@ export default function MenuEvent() {
             </li>
 
             <li>
-              <div className="md:flex items-center gap-5" data-reveal>
+              <div
+                className="md:flex items-center gap-5"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
                 <figure className="w-40 rounded-md mb-4 overflow-hidden bg-lightGray">
                   <img
                     src={MenuImage6}

@@ -94,7 +94,7 @@ function HeaderEvent() {
                 <li>
                   <a
                     href="#home"
-                    className="text-WhitE text-sm font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
                     data-nav-link
                   >
                     Home
@@ -104,7 +104,7 @@ function HeaderEvent() {
                 <li>
                   <a
                     href="#about"
-                    className="text-WhitE text-sm font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
                     data-nav-link
                   >
                     About
@@ -114,7 +114,7 @@ function HeaderEvent() {
                 <li>
                   <a
                     href="#menu"
-                    className="text-WhitE text-sm font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
                     data-nav-link
                   >
                     Menu
@@ -124,7 +124,7 @@ function HeaderEvent() {
                 <li>
                   <a
                     href="#blog"
-                    className="text-WhitE text-sm font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
                     data-nav-link
                   >
                     Blog
@@ -134,7 +134,7 @@ function HeaderEvent() {
                 <li>
                   <a
                     href="#"
-                    className="text-WhitE text-sm font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
                     data-nav-link
                   >
                     Contacts
@@ -144,7 +144,7 @@ function HeaderEvent() {
 
               <a
                 href="#"
-                className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-10 text-sm font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+                className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-10 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
               >
                 Book A Table
               </a>

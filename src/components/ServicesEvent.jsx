@@ -13,7 +13,10 @@ export default function ServicesEvent() {
               <a
                 href="#"
                 className="relative overflow-hidden z-10 hover:scale-105"
-                data-reveal
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 <figure className="absolute top-0 left-0 w-full h-full -z-10 transition">
                   <img
@@ -26,7 +29,7 @@ export default function ServicesEvent() {
                   />
                 </figure>
 
-                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75 has-before">
+                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75">
                   <i className="ri-restaurant-line text-3xl md:text-5xl text-WhitE mx-auto mb-1"></i>
 
                   <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
@@ -40,7 +43,10 @@ export default function ServicesEvent() {
               <a
                 href="#"
                 className="relative overflow-hidden z-10 hover:scale-105"
-                data-reveal
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 <figure className="absolute top-0 left-0 w-full h-full -z-10 transition">
                   <img
@@ -53,7 +59,7 @@ export default function ServicesEvent() {
                   />
                 </figure>
 
-                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75 has-before">
+                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 hover:bg-rich-black-fogra-29_a75">
                   <i className="ri-cup-line text-3xl md:text-5xl text-WhitE mx-auto mb-1"></i>
 
                   <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">
@@ -67,7 +73,10 @@ export default function ServicesEvent() {
               <a
                 href="#"
                 className="group relative overflow-hidden z-10 group-hover:scale-105"
-                data-reveal
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 <figure className="absolute top-0 left-0 w-full h-full -z-10 transition">
                   <img
@@ -80,7 +89,7 @@ export default function ServicesEvent() {
                   />
                 </figure>
 
-                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 group-hover:bg-rich-black-fogra-29_a75 has-before">
+                <div className="bg-rich-black-fogra-29_a85 rounded-md text-center py-20 transition duration-300 group-hover:bg-rich-black-fogra-29_a75">
                   <i className="ri-goblet-line text-3xl md:text-5xl text-WhitE mx-auto mb-1"></i>
 
                   <h3 className="font-oswald text-WhitE font-normal text-xl md:text-2xl mb-2">

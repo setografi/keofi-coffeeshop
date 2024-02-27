@@ -16,19 +16,31 @@ export default function AboutEvent() {
               <p
                 className="uppercase text-Camel reveal-left"
                 id="about-label"
-                data-reveal
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 About Us
               </p>
 
               <h2
                 className="text-3xl md:text-4xl lg:text-5xl font-normal font-oswald text-WhitE mt-3 mb-7 max-w-[18ch] reveal-left"
-                data-reveal
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 Organic & Fresh Coffee Provider Center
               </h2>
 
-              <p className="section-text reveal-left" data-reveal>
+              <p
+                className="section-text reveal-left"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
                 Sed ut perspiciatis unde omnis iste natus error voluptate
                 accusantium doloremque laudantium, totam rem aperiam eaque ipsa
                 quae abillo inventore veritatis et quasi architecto beatae vitae
@@ -39,7 +51,10 @@ export default function AboutEvent() {
 
               <div
                 className="mt-7 bg-Camel p-5 flex items-start gap-5 rounded-md reveal-left"
-                data-reveal
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 <figure className="flex-shrink-0 rounded-full aspect-square">
                   <img
@@ -59,7 +74,10 @@ export default function AboutEvent() {
 
             <figure
               className="about-banner reveal-right mx-auto md:w-[80%]"
-              data-reveal
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
             >
               <img src={AboutBanner} loading="lazy" alt="about banner" />
             </figure>

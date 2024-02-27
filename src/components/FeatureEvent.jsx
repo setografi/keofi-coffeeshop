@@ -16,7 +16,10 @@ export default function FeatureEvent() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-[90px] items-center px-4 md:px-8 lg:px-7 py-16 lg:py-32 max-w-[1200px] w-full mx-auto">
           <figure
             className="feature-banner rounded-md overflow-hidden bg-lightGray reveal-left w-[560] h-[700]"
-            data-reveal
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
           >
             <img
               src={FeatureBanner}
@@ -29,19 +32,34 @@ export default function FeatureEvent() {
           </figure>
 
           <div className="feature-content">
-            <p className="text-Camel uppercase reveal-right" data-reveal>
+            <p
+              className="text-Camel uppercase reveal-right"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
+            >
               Why Choose Us
             </p>
 
             <h2
               className="font-oswald text-WhitE font-normal text-3xl md:text-4xl lg:text-5xl mt-3 mb-7 reveal-right"
               id="feature-label"
-              data-reveal
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
             >
               New London Coffee Founded For Extraordinary Test
             </h2>
 
-            <p className="mb-10 mt-7 reveal-right" data-reveal>
+            <p
+              className="mb-10 mt-7 reveal-right"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
+            >
               Sed ut perspiciatis unde omnis iste natus error voluptate
               accusantium doloremque laudantium, totam rem aperiam eaque ipsa
               quae abillo inventore veritatis
@@ -51,7 +69,10 @@ export default function FeatureEvent() {
               <li>
                 <div
                   className="flex items-start gap-5 mb-7 reveal-right"
-                  data-reveal
+                  data-aos="fade-left"
+                  data-aos-offset="300"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-sine"
                 >
                   <div className="card-icon">
                     <img
@@ -80,7 +101,10 @@ export default function FeatureEvent() {
               <li>
                 <div
                   className="flex items-start gap-5 mb-7 reveal-right"
-                  data-reveal
+                  data-aos="fade-left"
+                  data-aos-offset="300"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-sine"
                 >
                   <div className="card-icon">
                     <img
@@ -109,8 +133,11 @@ export default function FeatureEvent() {
 
             <a
               href="#"
-              className="mt-10 bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-sm font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel reveal-right"
-              data-reveal
+              className="mt-10 bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel reveal-right"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
             >
               <span className="span">Explore More</span>
 

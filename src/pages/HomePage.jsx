@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import HeaderEvent from "../components/HeaderEvent";
 import HeroEvent from "../components/HeroEvent";
 import AboutEvent from "../components/AboutEvent";
@@ -8,8 +8,16 @@ import FeatureEvent from "../components/FeatureEvent";
 import BlogEvent from "../components/BlogEvent";
 import CtaEvent from "../components/CtaEvent";
 import FooterEvent from "../components/FooterEvent";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function HomePage() {
+  useEffect(() => {
+    Aos.init({
+      once: true,
+    });
+  }, []);
+
   return (
     <>
       <section>

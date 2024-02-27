@@ -8,14 +8,23 @@ export default function BlogEvent() {
     <>
       <section className="section blog" id="blog" aria-labelledby="blog-label">
         <div className="px-4 md:px-8 lg:px-7 py-16 lg:py-32 max-w-[1200px] w-full mx-auto">
-          <p className="uppercase text-Camel text-center" data-reveal>
+          <p
+            className="uppercase text-Camel text-center"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+          >
             Get Every Single Update
           </p>
 
           <h2
             className="font-oswald text-WhitE font-normal text-3xl md:text-4xl lg:text-5xl mt-3 mb-12 text-center"
             id="blog-label"
-            data-reveal
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
           >
             Read Some Latest Blog & News
           </h2>
@@ -24,8 +33,11 @@ export default function BlogEvent() {
             <li>
               <a
                 href="#"
-                className="relative h-[360px] bg-lightGray overflow-hidden has-before"
-                data-reveal
+                className="relative h-[360px] bg-lightGray overflow-hidden"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 <figure className="w-full h-full aspect-square md:aspect-auto">
                   <img
@@ -34,7 +46,7 @@ export default function BlogEvent() {
                     height="450"
                     loading="lazy"
                     alt="SWR React Hooks With Next Increm Ental Static Regeneration"
-                    className="rounded-md w-full h-full object-cover transition duration-300 hover:bg-rich-black-fogra-29 hover:opacity-75"
+                    className="rounded-md w-full h-full object-cover transition duration-300 hover:bg-rich-black-fogra-29_a75 hover:opacity-75"
                   />
                 </figure>
 
@@ -65,8 +77,11 @@ export default function BlogEvent() {
             <li>
               <a
                 href="#"
-                className="relative h-[360px] bg-lightGray overflow-hidden has-before"
-                data-reveal
+                className="relative h-[360px] bg-lightGray overflow-hidden"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 <figure className="w-full h-full aspect-square md:aspect-auto">
                   <img
@@ -75,7 +90,7 @@ export default function BlogEvent() {
                     height="450"
                     loading="lazy"
                     alt="Decisions For Building Flexible Components DevTools Browser"
-                    className="rounded-md w-full h-full object-cover transition duration-300 hover:bg-rich-black-fogra-29 hover:opacity-75"
+                    className="rounded-md w-full h-full object-cover transition duration-300 hover:bg-rich-black-fogra-29_a75 hover:opacity-75"
                   />
                 </figure>
 
@@ -106,8 +121,11 @@ export default function BlogEvent() {
             <li>
               <a
                 href="#"
-                className="relative h-[360px] bg-lightGray overflow-hidden has-before"
-                data-reveal
+                className="relative h-[360px] bg-lightGray overflow-hidden"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
               >
                 <figure className="w-full h-full aspect-square md:aspect-auto">
                   <img
@@ -116,7 +134,7 @@ export default function BlogEvent() {
                     height="450"
                     loading="lazy"
                     alt="SWR React Hooks With Next Increm Ental Static Regeneration"
-                    className="rounded-md w-full h-full object-cover transition duration-300 hover:bg-rich-black-fogra-29 hover:opacity-75"
+                    className="rounded-md w-full h-full object-cover transition duration-300 hover:bg-rich-black-fogra-29_a75 hover:opacity-75"
                   />
                 </figure>
 
@@ -147,8 +165,11 @@ export default function BlogEvent() {
 
           <a
             href="#"
-            className="mx-auto mt-10 bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-sm font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
-            data-reveal
+            className="mx-auto mt-10 bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
           >
             <span className="span">View All</span>
 
