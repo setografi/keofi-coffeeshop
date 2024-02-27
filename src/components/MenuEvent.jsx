@@ -29,7 +29,7 @@ export default function MenuEvent() {
           </p>
 
           <h2
-            className="font-oswald text-WhitE font-normal text-3xl md:text-4xl lg:text-5xl mt-3 mb-7 md:mb-12 text-center"
+            className="font-oswald text-WhitE font-normal text-3xl md:text-4xl mt-3 mb-7 md:mb-12 text-center"
             id="menu-label"
             data-aos="fade-up"
             data-aos-offset="300"

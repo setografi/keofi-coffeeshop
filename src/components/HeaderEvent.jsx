@@ -90,7 +90,7 @@ function HeaderEvent() {
               className="w-full py-2 lg:flex items-center hidden"
               data-navbar
             >
-              <ul className="flex items-center mx-auto gap-12">
+              <ul className="flex items-center mx-auto gap-7">
                 <li>
                   <a
                     href="#home"
@@ -144,7 +144,7 @@ function HeaderEvent() {
 
               <a
                 href="#"
-                className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-10 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+                className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-7 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
               >
                 Book A Table
               </a>

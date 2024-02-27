@@ -25,7 +25,7 @@ export default function AboutEvent() {
               </p>
 
               <h2
-                className="text-3xl md:text-4xl lg:text-5xl font-normal font-oswald text-WhitE mt-3 mb-7 max-w-[18ch] reveal-left"
+                className="text-3xl md:text-4xl font-normal font-oswald text-WhitE mt-3 mb-7 max-w-[18ch] reveal-left"
                 data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-duration="500"
@@ -60,6 +60,8 @@ export default function AboutEvent() {
                   <img
                     className="w-full h-full object-cover"
                     src={AboutImg}
+                    width="95"
+                    height="95"
                     loading="lazy"
                     alt="john doe"
                   />
@@ -72,14 +74,22 @@ export default function AboutEvent() {
               </div>
             </div>
 
-            <figure
-              className="about-banner reveal-right mx-auto md:w-[80%]"
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src={AboutBanner} loading="lazy" alt="about banner" />
+            <figure className="mx-auto  w-full overflow-hidden">
+              <div
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+              >
+                <img
+                  className="object-cover"
+                  src={AboutBanner}
+                  width="686"
+                  height="544"
+                  loading="lazy"
+                  alt="about banner"
+                />
+              </div>
             </figure>
           </div>
         </div>

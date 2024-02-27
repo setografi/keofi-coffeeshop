@@ -19,7 +19,7 @@ export default function BlogEvent() {
           </p>
 
           <h2
-            className="font-oswald text-WhitE font-normal text-3xl md:text-4xl lg:text-5xl mt-3 mb-12 text-center"
+            className="font-oswald text-WhitE font-normal text-3xl md:text-4xl mt-3 mb-12 text-center"
             id="blog-label"
             data-aos="fade-up"
             data-aos-offset="300"
@@ -165,7 +165,7 @@ export default function BlogEvent() {
 
           <a
             href="#"
-            className="mx-auto mt-10 bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+            className="mx-auto mt-10 bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-7 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
             data-aos="fade-up"
             data-aos-offset="300"
             data-aos-duration="500"

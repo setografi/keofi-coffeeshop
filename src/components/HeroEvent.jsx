@@ -36,7 +36,7 @@ export default function HeroEvent() {
             >
               <a
                 href="#"
-                className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+                className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-7 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
               >
                 <span className="span">Explore more</span>
                 <i className="ri-arrow-right-s-line"></i>
@@ -44,7 +44,7 @@ export default function HeroEvent() {
 
               <a
                 href="#"
-                className="bg-rich-black-fogra-29 text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-10 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+                className="bg-rich-black-fogra-29 text-WhitE flex items-center gap-1 max-w-max py-4 px-4 md:px-7 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
               >
                 <span className="span">Get delivery</span>
 
