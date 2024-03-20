@@ -162,8 +162,8 @@ function HeaderEvent() {
             </button>
 
             <div
-              className={`absolute top-14 right-0 lg:hidden bg-rich-black-fogra-39 bg-opacity-80 backdrop-blur-sm w-full h-screen transition-all duration-300 ${
-                isOpen ? "hidden" : "block"
+              className={`absolute top-14 right-0 lg:hidden bg-rich-black-fogra-39 bg-opacity-90 backdrop-blur-sm w-full h-screen transition-all duration-700 ${
+                isOpen ? "block" : "hidden"
               }`}
             >
               <nav className="w-full lg:flex items-center p-6" data-navbar>
