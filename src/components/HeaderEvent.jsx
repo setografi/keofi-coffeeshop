@@ -3,6 +3,10 @@ import LogoWeb from "../assets/logo.svg";
 
 function HeaderEvent() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const handleOpen = () => {
+    setIsOpen(!isOpen);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -81,82 +85,148 @@ function HeaderEvent() {
           }`}
           data-header
         >
-          <div className="flex justify-between items-center py-2 px-8 bg-rich-black-fogra-39">
+          <div className="flex relative justify-between items-center py-2 px-8 bg-rich-black-fogra-39">
             <a href="#" className="relative z-20 w-28">
               <img className="object-cover" src={LogoWeb} alt="" />
             </a>
+            <div className="hidden lg:block w-full">
+              <nav className="py-2 hidden lg:flex items-center" data-navbar>
+                <ul className="flex items-center mx-auto gap-7">
+                  <li>
+                    <a
+                      href="#home"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Home
+                    </a>
+                  </li>
 
-            <nav
-              className="w-full py-2 lg:flex items-center hidden"
-              data-navbar
-            >
-              <ul className="flex items-center mx-auto gap-7">
-                <li>
-                  <a
-                    href="#home"
-                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
-                    data-nav-link
-                  >
-                    Home
-                  </a>
-                </li>
+                  <li>
+                    <a
+                      href="#about"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      About
+                    </a>
+                  </li>
 
-                <li>
-                  <a
-                    href="#about"
-                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
-                    data-nav-link
-                  >
-                    About
-                  </a>
-                </li>
+                  <li>
+                    <a
+                      href="#menu"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Menu
+                    </a>
+                  </li>
 
-                <li>
-                  <a
-                    href="#menu"
-                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
-                    data-nav-link
-                  >
-                    Menu
-                  </a>
-                </li>
+                  <li>
+                    <a
+                      href="#blog"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Blog
+                    </a>
+                  </li>
 
-                <li>
-                  <a
-                    href="#blog"
-                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
-                    data-nav-link
-                  >
-                    Blog
-                  </a>
-                </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Contacts
+                    </a>
+                  </li>
+                </ul>
 
-                <li>
-                  <a
-                    href="#"
-                    className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
-                    data-nav-link
-                  >
-                    Contacts
-                  </a>
-                </li>
-              </ul>
-
-              <a
-                href="#"
-                className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-7 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
-              >
-                Book A Table
-              </a>
-            </nav>
+                <a
+                  href="#"
+                  className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-7 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+                >
+                  Book A Table
+                </a>
+              </nav>
+            </div>
 
             <button
               className="lg:hidden text-2xl text-WhitE transition duration-300 hover:scale-125"
               aria-label="open menu"
               data-nav-toggler
+              onClick={handleOpen}
             >
               <i className="ri-menu-line transition duration-300 hover:text-Camel"></i>
             </button>
+
+            <div
+              className={`absolute top-14 right-0 lg:hidden bg-rich-black-fogra-39 bg-opacity-80 backdrop-blur-sm w-full h-screen transition-all duration-300 ${
+                isOpen ? "hidden" : "block"
+              }`}
+            >
+              <nav className="w-full lg:flex items-center p-6" data-navbar>
+                <ul className="flex flex-col items-start mx-auto gap-7 py-5">
+                  <li>
+                    <a
+                      href="#home"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Home
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="#about"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      About
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="#menu"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Menu
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="#blog"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Blog
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="#"
+                      className="text-WhitE text-base font-medium uppercase p-2 duration-300 transition hover:text-Camel"
+                      data-nav-link
+                    >
+                      Contacts
+                    </a>
+                  </li>
+                </ul>
+
+                <a
+                  href="#"
+                  className="bg-Camel text-WhitE flex items-center gap-1 max-w-max py-4 px-7 text-base font-medium uppercase rounded-md transition duration-300 hover:bg-WhitE hover:text-Camel"
+                >
+                  Book A Table
+                </a>
+              </nav>
+            </div>
           </div>
         </div>
       </header>
